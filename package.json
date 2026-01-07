@@ -1,0 +1,21 @@
+{
+  "name": "sonarr-organizer-extension",
+  "version": "1.0.0",
+  "description": "Browser extension to automatically organize and rename all series in Sonarr with one click",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./input.css -o ./sonarr-automation-extension/output.css --minify",
+    "watch:css": "tailwindcss -i ./input.css -o ./sonarr-automation-extension/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  }
+}
