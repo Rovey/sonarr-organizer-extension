@@ -1,5 +1,20 @@
 # Sonarr Organizer Extension
 
+> [!IMPORTANT]
+> **Archived — Sonarr does this itself, and has done since 2016.**
+>
+> In Sonarr v4: **Select Series** → **Select All** → **Rename Files** → **Organize**.
+> In v2/v3 the same thing lives under **Series Editor** → select all → **Organize**
+> ([Sonarr/Sonarr#1352](https://github.com/Sonarr/Sonarr/issues/1352), closed five minutes
+> after it was opened in June 2016).
+>
+> Sonarr's own version is one server-side command instead of a browser clicking through every
+> series, so it is faster and has nothing to race against. Use that instead. Thanks to
+> [@supersnellehenk](https://github.com/Rovey/sonarr-organizer-extension/issues/1) for pointing
+> it out.
+>
+> This repository stays read-only for reference and is no longer maintained.
+
 > Browser extension to automatically organize and rename all series in Sonarr with one click
 
 A Chrome/Edge browser extension that automates the process of organizing series in Sonarr. It automatically opens each series, clicks "Preview Rename", and executes "Organize".
